@@ -1,0 +1,26 @@
+# Tipo MIME para podcast M4A
+AddType audio/mp4 .m4a .mp4
+
+DirectoryIndex index.html
+
+# Evitar listado de carpetas
+Options -Indexes
+
+# UTF-8 para caracteres especiales (ñ, tildes)
+AddDefaultCharset UTF-8
+
+# Caché básica para assets estáticos
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css "access plus 1 week"
+    ExpiresByType application/javascript "access plus 1 week"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/webp "access plus 1 month"
+    ExpiresByType audio/mp4 "access plus 1 month"
+</IfModule>
+
+# Compresión GZIP (si el servidor lo soporta)
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css application/javascript
+</IfModule>

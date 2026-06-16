@@ -1,0 +1,19 @@
+# Artefactos de empaquetado (se generan localmente)
+deploy/
+uniminuto-sitio-web.zip
+
+# Documentos académicos locales (no forman parte del sitio)
+*.docx
+
+# Audio original duplicado (el sitio usa assets/podcast.m4a)
+La_ingenier*.m4a
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp

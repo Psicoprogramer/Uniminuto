@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog académico sobre la Narrativa Digital frente a la Narrativa Tradicional. Proyecto de portafolio para la Universidad Minuto de Dios (UNIMINUTO).">
+    <title>La Metamorfosis del Relato: Narrativa Digital vs Tradicional | UNIMINUTO</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/uniminuto_logo.png">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-theme">
+    
+    <!-- Barra de progreso de lectura -->
+    <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+
+    <!-- Navegación Superior -->
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-mark">
+                <img src="assets/uniminuto_logo.png" alt="Logo UNIMINUTO" class="logo-img">
+            </span>
+            <span class="logo-text">UNIMINUTO</span>
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#hero" class="nav-link active">Inicio</a></li>
+                <li><a href="#intro" class="nav-link">Introducción</a></li>
+                <li><a href="#timeline" class="nav-link">Evolución</a></li>
+                <li><a href="#features" class="nav-link">Características</a></li>
+                <li><a href="#comparison" class="nav-link">Comparativa</a></li>
+                <li><a href="#podcast" class="nav-link">Podcast</a></li>
+                <li><a href="#authors" class="nav-link">Estudiantes</a></li>
+                <li><a href="#references" class="nav-link">Referencias</a></li>
+            </ul>
+        </nav>
+        <div class="nav-controls">
+            <button id="theme-toggle" aria-label="Cambiar tema visual" title="Cambiar tema">
+                <i class="fas fa-sun icon-sun"></i>
+                <i class="fas fa-moon icon-moon"></i>
+            </button>
+            <button class="menu-btn" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-background-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+            </div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="hero-badge animate-fade-in">NRC-8001 · Lectura y Escritura en el Contexto Digital</span>
+                    <h1 class="hero-title animate-slide-up">La Metamorfosis del Relato</h1>
+                    <p class="hero-subtitle animate-slide-up">Un análisis crítico de la Narrativa Digital en contraste con la Narrativa Tradicional en la era de la convergencia transmedia.</p>
+                    <div class="hero-meta animate-fade-in">
+                        <span><i class="far fa-user"></i> Brayan Omar Cabrera Diez</span>
+                        <span><i class="far fa-calendar-alt"></i> 15 de Junio, 2026</span>
+                        <span><i class="far fa-book"></i> Lectura y Escritura en el Contexto Digital</span>
+                    </div>
+                    <div class="hero-actions animate-slide-up">
+                        <a href="#intro" class="btn btn-primary">Comenzar Lectura <i class="fas fa-arrow-down"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper animate-fade-in-right">
+                    <div class="glass-frame">
+                        <img src="assets/hero.png" alt="Concepto de Narrativa Digital y Tradicional" class="hero-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Introducción -->
+        <section id="intro" class="section intro-section scroll-reveal">
+            <div class="container small-container">
+                <div class="section-title-wrapper">
+                    <span class="section-tag">01 / Introducción</span>
+                    <h2 class="section-heading">La Evolución del Discurso Colectivo</h2>
+                </div>
+                
+                <div class="article-body">
+                    <p class="lead-text">
+                        Desde los albores de la civilización, el ser humano ha tenido la necesidad imperiosa de relatar historias. No obstante, las herramientas empleadas para este fin han condicionado profundamente el alcance y la estructura de dichos mensajes. 
+                    </p>
+                    <p>
+                        <strong>En primer lugar</strong>, debemos comprender que la <em>narrativa tradicional</em>, ligada de forma casi indisoluble a la imprenta y a los formatos físicos como libros o folletos, establece un flujo de comunicación lineal. En este modelo, el autor funge como el único creador y el lector asume un rol esencialmente pasivo, limitándose a decodificar un camino previamente trazado.
+                    </p>
+                    
+                    <div class="quote-card">
+                        <p class="quote-text">
+                            "El desarrollo que ha tenido la narrativa audiovisual ha sido fuertemente influenciado por el desarrollo de tecnologías que cambian la forma de crear, transmitir y consumir contenido, dando lugar a la adaptabilidad en las narrativas digitales."
+                        </p>
+                        <cite class="quote-author">— Karbaum Padilla (2021)</cite>
+                    </div>
+
+                    <p>
+                        <strong>Por consiguiente</strong>, esta adaptabilidad mencionada por Karbaum Padilla ha derivado en lo que hoy conocemos como <strong>narrativa digital</strong>. Esta no consiste meramente en trasladar texto físico a una pantalla, sino en una transformación sustancial de la práctica de lectura y escritura. Mediante la integración de la interactividad, el hipertexto y una gran variedad de soportes multimedia, la narrativa digital democratiza el espacio comunicativo, convirtiendo al antiguo receptor en un participante dinámico de la historia.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Línea de Tiempo Interactiva -->
+        <section id="timeline" class="section timeline-section scroll-reveal">
+            <div class="container">
+                <div class="section-title-wrapper text-center">
+                    <span class="section-tag">02 / Historia</span>
+                    <h2 class="section-heading">Del Papel al Bit: La Línea de la Narración</h2>
+                    <p class="section-subheading">El viaje evolutivo de las técnicas narrativas a lo largo de la historia tecnológica.</p>
+                </div>
+
+                <div class="timeline-container">
+                    <div class="timeline-line"></div>
+                    
+                    <!-- Hito 1 -->
+                    <div class="timeline-item active" data-index="0">
+                        <div class="timeline-badge"><i class="fas fa-book"></i></div>
+                        <div class="timeline-card glass">
+                            <span class="timeline-date">Era Tradicional</span>
+                            <h3>El Soporte Físico y Lineal</h3>
+                            <p>Libros, códices y cartas. La imprenta de Gutenberg consolida la lectura lineal de izquierda a derecha y de principio a fin. El autor posee control absoluto del flujo narrativo, mientras que el lector ejerce un papel contemplativo.</p>
+                        </div>
+                    </div>
+
+                    <!-- Hito 2 -->
+                    <div class="timeline-item" data-index="1">
+                        <div class="timeline-badge"><i class="fas fa-link"></i></div>
+                        <div class="timeline-card glass">
+                            <span class="timeline-date">Años 90</span>
+                            <h3>La Revolución del Hipertexto</h3>
+                            <p>Con la llegada de la World Wide Web, los enlaces hipertextuales permiten ramificar las lecturas. El lector gana autonomía para decidir su propio camino de exploración a través de nodos interconectados.</p>
+                        </div>
+                    </div>
+
+                    <!-- Hito 3 -->
+                    <div class="timeline-item" data-index="2">
+                        <div class="timeline-badge"><i class="fas fa-photo-video"></i></div>
+                        <div class="timeline-card glass">
+                            <span class="timeline-date">Años 2000</span>
+                            <h3>Eclosión Multimedia</h3>
+                            <p>El ancho de banda permite incorporar videos, imágenes de alta resolución, audio digital y animaciones directamente en la web. El texto deja de estar solo; se enriquece y apoya en múltiples códigos perceptivos simultáneamente.</p>
+                        </div>
+                    </div>
+
+                    <!-- Hito 4 -->
+                    <div class="timeline-item" data-index="3">
+                        <div class="timeline-badge"><i class="fas fa-users"></i></div>
+                        <div class="timeline-card glass">
+                            <span class="timeline-date">Actualidad</span>
+                            <h3>Ecosistemas Transmedia</h3>
+                            <p>Las historias se expanden en múltiples canales y dispositivos (móvil, PC, redes sociales). Los usuarios interactúan, comentan y co-crean contenido. Nace el rol del <em>prosumidor</em> en entornos adaptables y colaborativos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Características Interactivas -->
+        <section id="features" class="section features-section scroll-reveal">
+            <div class="container">
+                <div class="section-title-wrapper text-center">
+                    <span class="section-tag">03 / Fundamentos</span>
+                    <h2 class="section-heading">Dimensiones de la Narrativa Digital</h2>
+                    <p class="section-subheading">Las 6 características fundamentales descritas en las teorías contemporáneas de la comunicación.</p>
+                </div>
+
+                <div class="features-wrapper">
+                    <!-- Rueda interactiva (Izquierda) -->
+                    <div class="features-wheel-container">
+                        <div class="wheel-outer">
+                            <div class="wheel-node active" data-feature="multimedia" style="--angle: 0deg;">
+                                <i class="fas fa-icons"></i>
+                                <span>Multimedialidad</span>
+                            </div>
+                            <div class="wheel-node" data-feature="interactivity" style="--angle: 60deg;">
+                                <i class="fas fa-mouse-pointer"></i>
+                                <span>Interactividad</span>
+                            </div>
+                            <div class="wheel-node" data-feature="hypertext" style="--angle: 120deg;">
+                                <i class="fas fa-project-diagram"></i>
+                                <span>Hipertextualidad</span>
+                            </div>
+                            <div class="wheel-node" data-feature="convergence" style="--angle: 180deg;">
+                                <i class="fas fa-compress-arrows-alt"></i>
+                                <span>Convergencia</span>
+                            </div>
+                            <div class="wheel-node" data-feature="participation" style="--angle: 240deg;">
+                                <i class="fas fa-comments"></i>
+                                <span>Participación</span>
+                            </div>
+                            <div class="wheel-node" data-feature="update" style="--angle: 300deg;">
+                                <i class="fas fa-sync-alt"></i>
+                                <span>Actualización</span>
+                            </div>
+                            <div class="wheel-center">
+                                <h3>Explora</h3>
+                                <p>Haz clic en los nodos externos</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Panel de detalles (Derecha) -->
+                    <div class="features-details-panel glass">
+                        <div class="feature-detail active" id="detail-multimedia">
+                            <div class="detail-icon"><i class="fas fa-icons"></i></div>
+                            <h3>Multimedialidad</h3>
+                            <p class="detail-description">
+                                Consiste en el uso integrado de múltiples recursos y códigos expresivos en un mismo soporte. La narrativa digital no se limita a caracteres textuales escriturales, sino que se apoya estratégicamente en imágenes fijas, videos explicativos, locuciones de audio, GIFs y animaciones dinámicas. 
+                            </p>
+                            <p class="detail-impact">
+                                <strong>Impacto:</strong> Esta combinación estimula diferentes canales sensoriales del usuario, favoreciendo la asimilación de ideas complejas y haciendo más atractiva y memorable la comunicación de la información.
+                            </p>
+                        </div>
+
+                        <div class="feature-detail" id="detail-interactivity">
+                            <div class="detail-icon"><i class="fas fa-mouse-pointer"></i></div>
+                            <h3>Interactividad</h3>
+                            <p class="detail-description">
+                                A diferencia de la narrativa tradicional que confina al usuario a observar pasivamente, la interactividad le permite actuar sobre el contenido. El usuario puede comentar en tiempo real, plantear preguntas o responder trivias directamente integradas.
+                            </p>
+                            <p class="detail-impact">
+                                <strong>Impacto:</strong> Otorga agencia al receptor del mensaje, quien puede influir activamente en la distribución o en el curso de la información presentada.
+                            </p>
+                        </div>
+
+                        <div class="feature-detail" id="detail-hypertext">
+                            <div class="detail-icon"><i class="fas fa-project-diagram"></i></div>
+                            <h3>Hipertextualidad</h3>
+                            <p class="detail-description">
+                                Se refiere a la capacidad de conectar diversos textos o recursos mediante enlaces web (hipervínculos). Esto rompe la estructura lineal rígida del libro tradicional para ofrecer trayectorias de lectura no secuenciales y personalizadas.
+                            </p>
+                            <p class="detail-impact">
+                                <strong>Impacto:</strong> Permite expandir la información de forma infinita según el interés del lector, quien decide si profundizar en un subtema o seguir el hilo principal.
+                            </p>
+                        </div>
+
+                        <div class="feature-detail" id="detail-convergence">
+                            <div class="detail-icon"><i class="fas fa-compress-arrows-alt"></i></div>
+                            <h3>Convergencia de Medios</h3>
+                            <p class="detail-description">
+                                Fenómeno que unifica múltiples canales de distribución en redes digitales unificadas. Se consigue una expansión transmedia, donde una historia no solo se replica, sino que se distribuye de formas complementarias en redes sociales, sitios web corporativos y blogs.
+                            </p>
+                            <p class="detail-impact">
+                                <strong>Impacto:</strong> Logra un alcance masivo del relato, permitiendo que la historia sea accesible e interactiva desde cualquier plataforma móvil o de escritorio.
+                            </p>
+                        </div>
+
+                        <div class="feature-detail" id="detail-participation">
+                            <div class="detail-icon"><i class="fas fa-comments"></i></div>
+                            <h3>Participación del Usuario</h3>
+                            <p class="detail-description">
+                                Alienta y promueve la colaboración constante entre los creadores y los destinatarios del contenido. En la narrativa digital, la barrera entre escritor y lector se diluye, surgiendo el término de "prosumidor" (productor y consumidor).
+                            </p>
+                            <p class="detail-impact">
+                                <strong>Impacto:</strong> Fomenta la construcción colectiva de significados y la retroalimentación inmediata, creando comunidades activas en torno al contenido.
+                            </p>
+                        </div>
+
+                        <div class="feature-detail" id="detail-update">
+                            <div class="detail-icon"><i class="fas fa-sync-alt"></i></div>
+                            <h3>Actualización Constante</h3>
+                            <p class="detail-description">
+                                El contenido digital no es estático ni definitivo. A diferencia del libro impreso, cuya corrección requiere una nueva edición física costosa, el blog o recurso digital puede ser editado, ampliado y optimizado de manera inmediata.
+                            </p>
+                            <p class="detail-impact">
+                                <strong>Impacto:</strong> Asegura la vigencia de la información presentada, adaptándose con gran flexibilidad a nuevos hallazgos o necesidades coyunturales del público.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Análisis Comparativo (Ventajas y Desventajas) -->
+        <section id="comparison" class="section comparison-section scroll-reveal">
+            <div class="container">
+                <div class="section-title-wrapper text-center">
+                    <span class="section-tag">04 / Discusión</span>
+                    <h2 class="section-heading">Tensión Dicotómica: Digital vs Tradicional</h2>
+                    <p class="section-subheading">Un desglose de las ventajas y desventajas de ambos modelos respaldado por la teoría de la comunicación.</p>
+                </div>
+
+                <!-- Tarjetas comparativas dinámicas -->
+                <div class="comparison-cards-grid">
+                    
+                    <!-- Columna Tradicional -->
+                    <div class="comparison-col traditional-col">
+                        <div class="col-header">
+                            <i class="fas fa-scroll"></i>
+                            <h3>Narrativa Tradicional</h3>
+                        </div>
+                        
+                        <div class="comparison-card glass hover-card">
+                            <div class="card-num">01</div>
+                            <h4>Ventaja: Concentración y Profundidad</h4>
+                            <p>La lectura lineal física carece de notificaciones o enlaces que distraigan la atención. Esto estimula la inmersión cognitiva profunda y los procesos de abstracción mental a largo plazo de forma sistemática.</p>
+                        </div>
+
+                        <div class="comparison-card glass hover-card">
+                            <div class="card-num">02</div>
+                            <h4>Ventaja: Durabilidad Sensorial</h4>
+                            <p>El soporte físico de papel no depende de baterías, pantallas o conexiones de internet. Además, ofrece una experiencia háptica y olfativa que genera un fuerte lazo afectivo en el lector.</p>
+                        </div>
+
+                        <div class="comparison-card glass hover-card error-border">
+                            <div class="card-num">03</div>
+                            <h4>Desventaja: Unidireccionalidad</h4>
+                            <p>El lector tradicional adopta un papel puramente pasivo en la toma de decisiones del relato. <strong>Por el contrario</strong>, el autor retiene la hegemonía total, impidiendo la colaboración interactiva del público.</p>
+                        </div>
+
+                        <div class="comparison-card glass hover-card error-border">
+                            <div class="card-num">04</div>
+                            <h4>Desventaja: Distribución Limitada</h4>
+                            <p>La difusión física está sujeta a costos de impresión, transporte y barreras geográficas estrictas. Por ende, su alcance de público es sustancialmente restringido.</p>
+                        </div>
+                    </div>
+
+                    <!-- Columna Digital -->
+                    <div class="comparison-col digital-col">
+                        <div class="col-header">
+                            <i class="fas fa-laptop-code"></i>
+                            <h3>Narrativa Digital</h3>
+                        </div>
+                        
+                        <div class="comparison-card glass hover-card success-border">
+                            <div class="card-num">01</div>
+                            <h4>Ventaja: Autonomía de Exploración</h4>
+                            <p>El hipertexto concede al lector la potestad de configurar su propio itinerario de lectura. <strong>Asimismo</strong>, la interactividad le permite intervenir de manera directa en el ecosistema.</p>
+                        </div>
+
+                        <div class="comparison-card glass hover-card success-border">
+                            <div class="card-num">02</div>
+                            <h4>Ventaja: Alcance Masivo e Inmediatez</h4>
+                            <p>Al estar alojada en la web, se rompen los límites geográficos. La información es accesible de manera global y en tiempo real para millones de usuarios conectados a la red.</p>
+                        </div>
+
+                        <div class="comparison-card glass hover-card">
+                            <div class="card-num">03</div>
+                            <h4>Desventaja: Fatiga y Distracción</h4>
+                            <p>La sobreestimulación sensorial y la profusión de hipervínculos pueden derivar en "infoxicación". <strong>No obstante</strong>, el usuario corre el riesgo de saltar superficialmente de un tema a otro sin asimilar ninguno.</p>
+                        </div>
+
+                        <div class="comparison-card glass hover-card">
+                            <div class="card-num">04</div>
+                            <h4>Desventaja: Obsolescencia Tecnológica</h4>
+                            <p>Depende de la disponibilidad de dispositivos, energía eléctrica y conectividad estable. Los cambios acelerados en formatos y sistemas operativos pueden inhabilitar contenidos interactivos antiguos.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Tabla Comparativa Interactiva -->
+                <div class="table-container-outer glass scroll-reveal">
+                    <h3>Matriz Analítica Resumida</h3>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Criterio</th>
+                                    <th>Narrativa Tradicional</th>
+                                    <th>Narrativa Digital</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Soporte</strong></td>
+                                    <td>Físico (Papel, impresión, cintas magnéticas)</td>
+                                    <td>Digital (Pantallas, servidores, almacenamiento web)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Estructura</strong></td>
+                                    <td>Lineal y secuencial</td>
+                                    <td>Hipertextual, no lineal e interconectada</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Rol del Receptor</strong></td>
+                                    <td>Pasivo (Lector / Observador)</td>
+                                    <td>Activo (Participante / Co-creador / Prosumidor)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Recursos</strong></td>
+                                    <td>Texto e imágenes mayormente estáticas</td>
+                                    <td>Multimedialidad integrada (Video, audio, animaciones)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Distribución</strong></td>
+                                    <td>Física, lenta y geográficamente acotada</td>
+                                    <td>Instantánea, global e infinitamente escalable</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Actualización</strong></td>
+                                    <td>Requiere rediseño y nueva edición física</td>
+                                    <td>Inmediata y en tiempo real vía código</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ecosistemas Transmedia y Convergencia -->
+        <section id="transmedia" class="section transmedia-section scroll-reveal">
+            <div class="container">
+                <div class="transmedia-grid">
+                    <div class="transmedia-image-wrapper">
+                        <div class="glass-frame">
+                            <img src="assets/transmedia.png" alt="Visualización de un Ecosistema Transmedia" class="transmedia-img">
+                        </div>
+                    </div>
+                    <div class="transmedia-content">
+                        <span class="section-tag">05 / Profundización</span>
+                        <h2 class="section-heading">La Convergencia de Medios y la Sociedad Transmedia</h2>
+                        <p class="lead-text">
+                            <strong>Por otro lado</strong>, al analizar la narrativa digital contemporánea, es indispensable remitirse a los ecosistemas transmedia estructurados en torno a los usuarios.
+                        </p>
+                        <p>
+                            Según expone <strong>Paredes Otero (2022)</strong>, las narrativas digitales se caracterizan por una marcada convergencia de medios y por la participación activa de los ciudadanos en ecosistemas que expanden las historias a través de múltiples soportes. En este escenario, la narración no es simplemente adaptada a una interfaz web, sino que se fragmenta para que cada pieza lingüística aporte una perspectiva exclusiva e insustituible al conjunto total del relato.
+                        </p>
+                        <p>
+                            <strong>Por lo tanto</strong>, las características aquí estudiadas no son independientes entre sí. **En suma**, forman una sinergia interactiva que redefine por completo los hábitos de lectura y escritura en la sociedad contemporánea, promoviendo nuevas dinámicas de construcción y socialización de significado colectivo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reproductor de Audio (Multimedia) -->
+        <section id="podcast" class="section podcast-section scroll-reveal">
+            <div class="container small-container">
+                <div class="section-title-wrapper text-center">
+                    <span class="section-tag">06 / Multimedia</span>
+                    <h2 class="section-heading">Debate Académico en Formato Podcasting</h2>
+                    <p class="section-subheading">Escucha una síntesis conceptual del análisis de narrativas. Un recurso auditivo interactivo con visualización dinámica.</p>
+                </div>
+
+                <!-- Reproductor de Audio Personalizado -->
+                <div class="audio-player-container glass">
+                    <div class="player-top">
+                        <div class="player-cover">
+                            <i class="fas fa-microphone-alt"></i>
+                        </div>
+                        <div class="player-info">
+                            <span class="track-genre">PODCAST EDUCATIVO</span>
+                            <h3 class="track-title">La ingeniería oculta de la narrativa audiovisual</h3>
+                            <span class="track-author">Estudiantes UNIMINUTO</span>
+                        </div>
+                    </div>
+
+                    <!-- Ondas de Audio Simuladas (Canvas) -->
+                    <div class="visualizer-wrapper">
+                        <canvas id="audio-visualizer"></canvas>
+                    </div>
+
+                    <div class="player-controls">
+                        <!-- Elemento de audio real escondido -->
+                        <audio id="main-audio" preload="metadata">
+                            <source src="assets/podcast.m4a" type="audio/mp4">
+                        </audio>
+                        
+                        <div class="time-display">
+                            <span id="current-time">0:00</span>
+                            <div class="progress-bar-container" id="player-progress-container">
+                                <div class="progress-bar-fill" id="player-progress-fill"></div>
+                                <div class="progress-handle"></div>
+                            </div>
+                            <span id="duration-time">0:00</span>
+                        </div>
+
+                        <div class="control-buttons">
+                            <button id="btn-backward" class="control-btn" title="Retroceder 10s"><i class="fas fa-backward"></i></button>
+                            <button id="btn-play-pause" class="control-btn play-btn" title="Reproducir"><i class="fas fa-play"></i></button>
+                            <button id="btn-forward" class="control-btn" title="Adelantar 10s"><i class="fas fa-forward"></i></button>
+                            <button id="btn-mute" class="control-btn" title="Silenciar"><i class="fas fa-volume-up"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="podcast-notes text-center">
+                    <p><i class="fas fa-info-circle"></i> <em>Nota: El reproductor utiliza la API de Web Audio para renderizar el oscilograma en tiempo real. Activa el reproductor para ver la animación.</em></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Equipo de Trabajo -->
+        <section id="authors" class="section authors-section">
+            <div class="authors-bg-decoration" aria-hidden="true">
+                <div class="authors-glow authors-glow-1"></div>
+                <div class="authors-glow authors-glow-2"></div>
+            </div>
+            <div class="container">
+                <div class="section-title-wrapper text-center scroll-reveal">
+                    <span class="section-tag">07 / Estudiantes</span>
+                    <h2 class="section-heading">Estudiantes UNIMINUTO</h2>
+                    <p class="section-subheading">Estudiantes de UNIMINUTO que participaron en este proyecto académico bajo la dirección de la docente Sandra Jenny Otalvaro Garces.</p>
+                </div>
+
+                <article class="teacher-card glass hover-card scroll-reveal author-accent-rose">
+                    <div class="author-avatar avatar-bg-rose">
+                        <img src="assets/students/sandra-otalvaro.png" alt="Sandra Jenny Otalvaro Garces" class="author-avatar-img avatar-pos-sandra" loading="lazy">
+                        <i class="fas fa-user author-avatar-fallback" aria-hidden="true"></i>
+                    </div>
+                    <div class="author-info">
+                        <span class="teacher-label">Docente</span>
+                        <h3>Sandra Jenny Otalvaro Garces</h3>
+                        <span class="author-badge teacher-badge">
+                            <i class="fas fa-chalkboard-teacher" aria-hidden="true"></i>
+                            Docente UNIMINUTO
+                        </span>
+                    </div>
+                </article>
+
+                <div class="authors-grid">
+                    <article class="author-card glass hover-card scroll-reveal author-accent-indigo">
+                        <div class="author-avatar avatar-bg-indigo is-fallback">
+                            <img src="assets/students/analy-forero.png" alt="Analy Forero Quiroga" class="author-avatar-img avatar-pos-analy" loading="lazy">
+                            <i class="fas fa-user author-avatar-fallback" aria-hidden="true"></i>
+                        </div>
+                        <div class="author-info">
+                            <h3>Analy Forero Quiroga</h3>
+                            <span class="author-badge">
+                                <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                                Estudiante
+                            </span>
+                        </div>
+                    </article>
+
+                    <article class="author-card glass hover-card scroll-reveal author-accent-cyan">
+                        <div class="author-avatar avatar-bg-cyan">
+                            <img src="assets/students/brayan-cabrera.png" alt="Brayan Omar Cabrera Diez" class="author-avatar-img avatar-pos-brayan" loading="lazy">
+                            <i class="fas fa-user author-avatar-fallback" aria-hidden="true"></i>
+                        </div>
+                        <div class="author-info">
+                            <h3>Brayan Omar Cabrera Diez</h3>
+                            <span class="author-badge">
+                                <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                                Estudiante
+                            </span>
+                        </div>
+                    </article>
+
+                    <article class="author-card glass hover-card scroll-reveal author-accent-violet">
+                        <div class="author-avatar avatar-bg-violet">
+                            <img src="assets/students/frank-diaz.png" alt="Frank Elkin Diaz Caleño" class="author-avatar-img avatar-pos-frank" loading="lazy">
+                            <i class="fas fa-user author-avatar-fallback" aria-hidden="true"></i>
+                        </div>
+                        <div class="author-info">
+                            <h3>Frank Elkin Diaz Caleño</h3>
+                            <span class="author-badge">
+                                <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                                Estudiante
+                            </span>
+                        </div>
+                    </article>
+
+                    <article class="author-card glass hover-card scroll-reveal author-accent-green">
+                        <div class="author-avatar avatar-bg-green">
+                            <img src="assets/students/leidy-chavez.png" alt="Leidy Esperanza Chavez Marroquin" class="author-avatar-img avatar-pos-leidy" loading="lazy">
+                            <i class="fas fa-user author-avatar-fallback" aria-hidden="true"></i>
+                        </div>
+                        <div class="author-info">
+                            <h3>Leidy Esperanza Chavez Marroquin</h3>
+                            <span class="author-badge">
+                                <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                                Estudiante
+                            </span>
+                        </div>
+                    </article>
+
+                    <article class="author-card glass hover-card scroll-reveal author-accent-yellow">
+                        <div class="author-avatar avatar-bg-yellow is-fallback">
+                            <img src="assets/students/samuel-parra.png" alt="Samuel Parra Reales" class="author-avatar-img avatar-pos-samuel" loading="lazy">
+                            <i class="fas fa-user author-avatar-fallback" aria-hidden="true"></i>
+                        </div>
+                        <div class="author-info">
+                            <h3>Samuel Parra Reales</h3>
+                            <span class="author-badge">
+                                <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                                Estudiante
+                            </span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Referencias Bibliográficas -->
+        <section id="references" class="section references-section scroll-reveal">
+            <div class="container small-container">
+                <div class="section-title-wrapper">
+                    <span class="section-tag">08 / Bibliografía</span>
+                    <h2 class="section-heading">Referencias Académicas</h2>
+                    <p class="section-subheading">Fuentes bibliográficas oficiales empleadas en este trabajo con base en normas APA vigentes.</p>
+                </div>
+
+                <div class="references-list glass">
+                    <ul>
+                        <li>
+                            <div class="ref-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div class="ref-content">
+                                <p class="ref-citation"><strong>Karbaum Padilla, G. (2021).</strong> Una historia audiovisual. En <em>La evolución de la narrativa audiovisual: analógica, transmedia y social media</em> (pp. 18–60). Universidad Peruana de Ciencias Aplicadas (UPC).</p>
+                                <a href="https://repositorioacademico.upc.edu.pe/handle/10757/656157" target="_blank" rel="noopener" class="ref-link">Acceso a Repositorio <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="ref-icon"><i class="fas fa-book-open"></i></div>
+                            <div class="ref-content">
+                                <p class="ref-citation"><strong>Paredes Otero, G. (Coord.). (2022).</strong> <em>Narrativas y usuarios de la sociedad transmedia</em> (1.ª ed., pp. 239–262, 300–318 y 731–743). Dykinson.</p>
+                                <a href="https://www.dykinson.com/libros/narrativas-y-usuarios-de-la-sociedad-transmedia/9788411222624/" target="_blank" rel="noopener" class="ref-link">Acceso Editorial <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <h3>Narrativa Digital</h3>
+                <p>Proyecto desarrollado para la materia NRC-8001 — Lectura y Escritura en el Contexto Digital de la Corporación Universitaria Minuto de Dios (UNIMINUTO).</p>
+            </div>
+            <div class="footer-info">
+                <p><strong>Desarrollado por:</strong> Brayan Omar Cabrera Diez</p>
+                <p><strong>Materia:</strong> NRC-8001 — Lectura y Escritura en el Contexto Digital</p>
+                <p><strong>Docente:</strong> Sandra Jenny Otalvaro Garces</p>
+                <p>&copy; 2026 UNIMINUTO. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
